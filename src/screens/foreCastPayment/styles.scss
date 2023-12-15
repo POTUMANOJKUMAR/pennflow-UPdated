@@ -1,0 +1,216 @@
+@import "../../theme/variables.scss";
+@import "../../theme/fonts.scss";
+
+.forecastpay {
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 100%;
+}
+
+.forecastpay-title-container {
+  display: flex;
+  align-items: flex-end;
+  // justify-content: flex-end;
+  gap: 17px;
+  width: 100%;
+}
+
+.forecastpay-menu-item {
+  font-family: "Poppins";
+  font-weight: 500;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #848484;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+}
+
+.forecastpay-active {
+  color: $login-blue;
+  border-bottom: 1px solid $login-blue;
+}
+
+
+.forecastpay-from-date-container,
+.forecastpay-end-date-container,
+.forecastpay-select-container {
+  margin-top: 10px;
+}
+
+.forecastpay-from-date-container {
+  width: 12%;
+  margin-left: 13%;
+}
+
+.forecastpay-end-date-container {
+  width: 12%;
+}
+
+.forecastpay-select-container {
+  width: 15%;
+}
+
+.exports-lable {
+  margin-top: 10px;
+}
+
+.scenarios-lable {
+  margin-top: 10px;
+  margin-left: 0px;
+  // margin-right: 10%;
+}
+
+
+.container-fluid {
+  padding: 15px;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.option-select {
+  // width:25%
+}
+
+.card-body {
+  padding: 25px;
+  height: 100%;
+}
+
+/* Existing styles */
+.dynamic-charts {
+  gap: 50px;
+
+}
+
+.dynamics-expenses {
+  padding-bottom: 20px;
+}
+
+.bar-options {
+  gap: 5px;
+  /* Adjust the gap as needed */
+}
+
+.option-lables {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.option-icons {
+  width: 12px;
+  height: 12px;
+}
+
+.dynamic-table-charts-container {
+  // padding: 1%;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 200px;
+  border: 1px solid #868686
+}
+
+.dynamic-table-charts-container tr:last-child {
+  border-bottom: none;
+}
+
+.dynamic-table-charts-container td {
+  border-top: 1px solid #C2C2C2;
+  margin: 0; 
+   line-height: 0.5;
+   text-align: center;
+   padding-top: 2px;
+}
+
+.dynamic-table-charts-container tr {
+  color: black;
+ 
+}
+
+.recalculate-overlay {
+  width: 100%;
+  height: 100%;
+;
+  border-radius: 12px;
+
+  
+}
+
+.redcircle {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 20px;
+  right: -35px;
+  top: -42px;
+  cursor: pointer;
+
+}
+
+
+.redcanclebutton {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -34px;
+  right: -29px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1600px) {
+
+  .forecastpay-from-date-container {
+    margin-left: 0%;
+
+
+  }
+}
+
+// @media screen  and (max-width: 700px) {
+// .container-fluid {
+//   padding: 15px;
+//   width: 100%;
+// }
+
+// .card {
+//   border: none;
+//   border-radius: 16px;
+//   background-color: #ffffff;
+//   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+//   margin-bottom: 30px;
+//   height: 100%;
+//   width: 150%; /* Set the width to 100% for smaller screens */
+// }
+
+// .card-body {
+//   padding: 25px;
+//   height: 100%;
+//   width: 100%;
+// }
+
+// /* Add a margin-bottom to create a gap between the cards */
+// .card + .card {
+//   margin-top: 15%;
+// }
+// }
+
+@media screen and (max-width: 600px) {
+
+  .recalculate-overlay {
+    display: none;
+  }
+
+}

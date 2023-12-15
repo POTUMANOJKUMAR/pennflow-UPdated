@@ -1,0 +1,43 @@
+@import "../../theme/variables.scss";
+@import "../../theme/fonts.scss";
+
+.profile-notification-container{
+  padding: 15px 10px 10px 25px ;
+  background-color: #FFFFFF;
+ margin:25px
+}
+
+.notification-data-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    margin-bottom: 10px;
+    justify-content: space-between;
+   
+}
+.notification-add-type-btn{
+    width: 120px;
+    padding-right: 10px;
+}
+.notification-header{
+font-size: 24px;
+font-weight: 600;
+font-family: "Poppins";
+}
+.underline{
+  
+  margin-top: 20px ;
+  margin-bottom: 10px;
+}
+.profile-notification-savebtn{
+  margin-top: 25px;
+  width: 150px;
+  margin-bottom: 10px;
+
+}
+
+
+
+
+

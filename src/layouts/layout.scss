@@ -1,0 +1,81 @@
+@import "../theme/variables.scss";
+@import "../theme/fonts.scss";
+
+#main {
+  transition: margin-left 0.5s;
+  font-family: "Inter";
+  margin-left: 15% !important;
+  // background: linear-gradient(336deg, #faa21c 0%, #383333 30%);
+  background: #f6f6f6;
+}
+
+.footer-item {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+}
+
+.login-main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.login-background-container {
+  background-color: #f0f3f5;
+  height: 100%;
+  position: relative;
+  .logo-container {
+    // height: 15%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    .login-logo {
+      width: 191px;
+      height: 57px;
+    }
+  }
+  .login-image {
+    position: absolute;
+    top: 46px;
+    width: 100%;
+  }
+  .login-footer-container {
+    width: 453px;
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    left: 155px;
+    .footer-title {
+      font-family: "Poppins";
+      font-size: 18px;
+      color: $primary-color;
+      font-weight: 500;
+      margin-bottom: none !important;
+    }
+    .footer-content {
+      font-family: "Poppins";
+      color: $login-grey;
+      font-size: 12px;
+    }
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  #main {
+    transition: margin-left 0.5s;
+    font-family: "Inter";
+    margin-left: 150px !important;
+    // background: linear-gradient(336deg, #faa21c 0%, #383333 30%);
+    background: #f6f6f6;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #main {
+    transition: margin-left 0.5s;
+    font-family: "Inter";
+    margin-left: 0 !important;
+    // background: linear-gradient(336deg, #faa21c 0%, #383333 30%);
+    background: #f6f6f6;
+  }
+}

@@ -1,0 +1,161 @@
+@import "../../theme/variables.scss";
+@import "../../theme/fonts.scss";
+
+.budgeting {
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 100%;
+}
+
+.budgeting-title-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-;
+  gap: 17px;
+  width: 100%;
+}
+
+.budgeting-menu-item {
+  font-family: "Poppins";
+  font-weight: 500;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #848484;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+}
+
+.budgeting-active {
+  color: $login-blue;
+  border-bottom: 1px solid $login-blue;
+}
+
+
+.budgeting-from-date-container,
+.budgeting-end-date-container,
+.budgeting-select-container {
+  margin-top: 10px;
+}
+
+.budgeting-select-container {
+  width: 18%; 
+}
+
+.budgeting-from-date-container {
+  margin-left: 23%;
+}
+
+
+.cash-flow1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  color: #2d3436;
+}
+
+.pie-charts-container {
+  width: 100%;
+  height: 50%;
+
+  background-color: $white;
+  margin-top: 5%;
+  border-radius: 16px;
+  padding: 25px;
+
+}
+
+.pie-charts-data {
+  
+  width: 11%; 
+}
+
+.pie-charts {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.employee-label {
+  font-family: "Poppins";
+  font-size: 22px; 
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 1.5vw; 
+}
+
+.pie-options {
+  margin-top: 50px;
+  gap: 60px;
+}
+
+.option-lable {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.option-icon {
+  width: 12px;
+  height: 12px;
+
+}
+.expenses-chart {
+  margin-top: 30px;
+  gap: 50px;
+}
+
+.overall-chart-container {
+  width: 50%;
+  height: 50%;
+  padding-top: 131px;
+  
+  border-radius: 16px;
+  background-color: $white;
+  padding: 25px;
+}
+
+.comapany-chart-container {
+  width: 50%;
+  height: 45%;
+  top: 131px;
+  left: 71px;
+  border-radius: 16px;
+  background-color: $white;
+  padding: 25px;
+}
+
+.overall-expenses {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .budgeting-from-date-container {
+    margin-left: 0%;
+
+  }
+}
+ 
+
+
+
+@media (max-width: 768px) {
+  .employee-label {
+    font-size: 16px; /* Adjust for smaller screens */
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+}

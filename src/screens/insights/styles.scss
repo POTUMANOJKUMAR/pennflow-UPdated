@@ -1,0 +1,127 @@
+@import "../../theme/variables.scss";
+@import "../../theme/fonts.scss";
+
+.insight-main-container {
+  display: flex;
+  margin: 25px;
+  flex-direction: column;
+
+}
+.insight-header-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+flex: 100%;
+}
+.insight-input-container{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  
+}
+
+
+.insight-menu-container {
+    flex: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $border;
+  
+  }
+.insight-menu-item {
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: 0 30px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #c0c0c0;
+    cursor: pointer;
+  }
+  .insight-active {
+    color: $login-blue;
+    border-bottom: 1px solid $login-blue;
+  }
+  .insight-up-icons{
+    display: flex;
+    flex-direction: row;
+    // margin-bottom: 10px;
+    gap:15px;
+ 
+  
+  }
+  .bottom-icon-chart{
+   display: flex;
+   justify-content: space-between;
+    flex-direction: row ;
+  }
+
+  .insight-bottom-icons{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .chart-heading {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    color: #2d3436;
+  }
+  .insight-main-chart-container{
+    display: flex;
+    flex-direction: column;
+   }
+  .charts-top{
+    margin-top: 15px;
+   width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap:15px;
+    justify-content: space-between;
+ 
+  }
+  .insight-line-chart-container{
+    background-color: white;
+ width: 50%;
+ padding: 10px 20px;
+ border-radius: 20px;
+box-shadow: 0px 0px 4px #DFE6E9;
+  }
+  .insight-bar-chart-container{
+    background-color: white;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 20px;
+box-shadow: 0px 0px 4px #DFE6E9;
+  }
+
+.chart-bottom{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15px;
+    justify-content: space-between;
+}
+.bottom-left-bar-chart-container{
+width: 50%;
+background-color: white;
+padding: 10px 20px; 
+border-radius: 20px;
+box-shadow: 0px 0px 4px #DFE6E9;
+
+}
+.bottom-right-bar-chart-container{
+    background-color: white;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px #DFE6E9;
+}

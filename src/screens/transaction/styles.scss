@@ -1,0 +1,27 @@
+@import "../../theme/fonts.scss";
+@import "../../theme/variables.scss";
+
+
+.transaction-history-main-container{
+    margin: 25px 30px;
+
+}
+.transition-download-btn{
+    width: 175px;
+   
+}
+
+.transaction-history-header2-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bank-image{
+    width: 15px;
+    height: 15px;
+}
+.transiction-history-search-bar{
+position: relative;
+left: -400px;
+bottom: -12px;
+}

@@ -1,0 +1,155 @@
+
+@import "../../theme/fonts.scss";
+@import "../../theme/variables.scss";
+
+.backList-icon {
+    width: 20px;
+    height: 20px;
+    top: 154px;
+    left: 376px;
+    padding: 1.5px, 6px, 2.49px, 7.49px;
+}
+
+.backList {
+    font-family: ""Poppins"";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 5px;
+    color: $login-blue;
+}
+
+.backList-container {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: "Poppins";
+}
+
+.invoice-details {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111314;
+}
+
+.inovice-details-container {
+    background-color: #FFFFFF;
+
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    font-family: "Poppins";
+}
+
+.invoice-details-head {
+    display: flex;
+    font-family: "Poppins";
+    gap: 65%;
+    font-size: 14px;
+}
+
+.invoice-checkbox-container {
+    display: flex;
+}
+
+.mark-checkbox-label {
+    font-family: ""Poppins"";
+    font-size: 16px;
+    color: $login-blue;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.delete-container {
+    display: flex;
+}
+
+.delete-icon {
+    width: 20px;
+    height: 20px;
+    top: 3.88px;
+    left: 4.58px;
+}
+
+.delete-lable {
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    color: $delete-red;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.invoice-mark-delete {
+    display: flex;
+    margin-left: 20px;
+    gap: 40px;
+}
+
+.horizontal-line {
+    color: $border-color;
+    margin-right: 13px;
+}
+
+.invoice-pay{
+    width: 392px;
+}
+
+.due-pay{
+    width: 392px;
+}
+
+.note-lable {
+    margin-top: 10px;
+    height: 50px;
+}
+
+.recurring-lable{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+
+
+.custom-form {
+    padding-right: 6.5%;
+  } 
+
+  @media screen and (max-width: 1616px) {
+
+    .invoice-details-head {
+        display: flex;
+        font-family: "Poppins";
+        gap: 55%;
+        font-size: 14px;
+    }
+}
+   
+    @media (max-width: 1335px) {
+        .invoice-details-head {
+            gap: 50%;
+        }
+    }
+
+    @media (max-width: 925px) {
+        .invoice-details-head {
+            gap: 10%;
+        }
+    
+}

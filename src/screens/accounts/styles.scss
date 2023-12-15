@@ -1,0 +1,54 @@
+@import "../../theme/variables.scss";
+@import "../../theme/fonts.scss";
+
+.accounts-container {
+  padding: 15px 10px 10px 25px;
+  background-color: #FFFFFF;
+  margin: 25px;
+}
+
+.accounts-data-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.accounts-btn {
+  width: 150px;
+}
+
+.accounts-header {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.underline {
+
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.networking-image-icons {
+  width: 15px;
+  height: 15px;
+}
+
+.color {
+  color: #0FB920 !important;
+}
+.accounts-table-body{
+  background-color: #ECECEC;
+}
+// .accounts-table-container{
+//   background-color: #0FB920;
+// }
+  .clickpayments{
+  margin-left: 34%;
+  }
+.accounts-row{
+  background-color: transparent !important;
+}
+ 
